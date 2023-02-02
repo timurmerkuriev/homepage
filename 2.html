@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>ARMAGEDDON</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', function(){
+                document.querySelector('button').addEventListener('click', function(){
+                    var element = document.body;
+                    element.classList.toggle("dark-mode");
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>NEVER SETTLE</h1>
+        </header>
+        <button type="button" class="btn btn-light">Dark/Light</button>
+        <div class="menu">
+          <a href="index.html">Home</a>
+          <a href="2.html">Gallery</a>
+          <a href="3.html">About</a>
+          <a href="4.html#">FAQ</a>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://media.wired.co.uk/photos/606d9f0d938ecee6e930e6c0/master/w_1600%2Cc_limit/wired-mclarenartura-8.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://mclaren.scene7.com/is/image/mclaren/675LT-hero-1920x1080-1:crop-16x9?wid=1980&hei=1114" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://blog.dupontregistry.com/wp-content/uploads/2016/09/chrome-mclaren-p1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.motor1.com/images/mgl/7ZL30P/s1/all-black-mansory-mclaren-720s.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </body>
+</html>
